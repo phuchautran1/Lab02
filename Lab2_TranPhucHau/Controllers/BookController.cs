@@ -81,7 +81,9 @@ namespace Lab2_TranPhucHau.Controllers
             }
             return View("ListBookModel", books);
         }
+      
         public ActionResult CreateBook()
+
         {
             return View();
         }
